@@ -2,16 +2,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "Shared",
+    name: "SharedLogic",
     platforms: [.iOS(.v15)],
     products: [
-        .library(name: "Shared", targets: ["Shared"])
+        .library(name: "SharedLogic", targets: ["SharedLogic"])
     ],
     targets: [
         .binaryTarget(
-            name: "Shared",
-            url: "https://github.com/YOUR_USERNAME/GreetingKMP/releases/download/v0.0.0/Shared.xcframework.zip",
-            checksum: "placeholder"
+            name: "SharedLogic",
+            url: "https://github.com/HelloRaghav2008/Netflix/releases/download/v0.0.1/SharedLogic.xcframework.zip",
+            checksum: "4e131ed237cfa34aadbd780727e98ac840487ac618573bb39bfc4a0ff48e7fd6"
         )
     ]
 )
